@@ -14,3 +14,25 @@ To create super user enter:
 
 To create app:
 > python3 manage.py startapp appName
+
+### Models and database
+After model creation:
+> python3 manage.py makemigrations modelName
+> python3 manage.py migrate
+
+To open database:
+> sqlite3  db.fileName
+
+To see existing tables:
+> .tables
+
+To see columns in table:
+> .schema tableName
+
+To get all data from table:
+> select * from tableName;
+
+To quit from database:
+> control + D
+
+
